@@ -1,6 +1,7 @@
 package com.noizu.fragmentedkeys.key;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -144,6 +145,9 @@ public class Standard implements com.noizu.fragmentedkeys.IKey  {
 		{
 			tagList.add(entry.getValue().getFullTag());
 		}
+		
+		// Sort first for consistent cache keys.
+		Collections.sort(tagList);
 		return tagList;
 	}
 
