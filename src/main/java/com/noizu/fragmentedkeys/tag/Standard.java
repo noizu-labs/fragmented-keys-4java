@@ -34,5 +34,19 @@ public class Standard extends com.noizu.fragmentedkeys.Tag
 	}
 	public Standard(String tag, Integer instance, Long version, ICacheHandler handler, String prefix) {
 		super(tag, instance.toString(), version, handler, prefix);
+	}
+	
+	
+	public Standard(String tag, Long instance) {
+		super(tag, instance.toString());
+	}
+	public Standard(String tag, Long instance, Long version) {
+		super(tag, instance.toString(), version);
+	}
+	public Standard(String tag, Long instance, Long version, ICacheHandler handler) {
+		super(tag, instance.toString(), version, handler);
+	}
+	public Standard(String tag, Long instance, Long version, ICacheHandler handler, String prefix) {
+		super(tag, instance.toString(), version, handler, prefix);
 	}	
 }
