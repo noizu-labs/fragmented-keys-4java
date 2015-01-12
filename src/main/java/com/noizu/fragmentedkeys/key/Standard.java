@@ -51,16 +51,10 @@ public class Standard implements com.noizu.fragmentedkeys.IKey  {
 	}
 
 
-	/**
-	 * @deprecated
-	 */
 	public String getKey() {
 		return getKey(true);
 	}
 
-	/**
-	 * @deprecated
-	 */	
 	public String getKey(Boolean hash)
 	{
 		return getKeyStr(hash);
