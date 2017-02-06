@@ -4,7 +4,7 @@
 
 	<groupId>com.noizu</groupId>
 	<artifactId>fragmentedkeys</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>fragmentedkeys</name>
@@ -29,12 +29,10 @@
 		<developerConnection>scm:git:git@github.com:noizu/fragmented-keys-4java.git</developerConnection>
 	</scm>
 
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<github.global.server>github</github.global.server>
 	</properties>
-
 	<distributionManagement>
 		<repository>
 			<id>internal.repo</id>
